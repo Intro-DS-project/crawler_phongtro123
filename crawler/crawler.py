@@ -129,7 +129,7 @@ if __name__ == "__main__":
         }
         
         # Save to file
-        json_object = json.dumps(dictionary, indent=4)
+        json_object = json.dumps(dictionary, indent=4, ensure_ascii=False)
         with open("output.json", "a", encoding="utf-8") as outfile:
             outfile.write(json_object)
             outfile.write("\n")
