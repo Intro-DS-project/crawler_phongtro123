@@ -112,6 +112,7 @@ if __name__ == "__main__":
         dictionary = {
             "price": price,
             "area": area,
+            "location": location,
             "street": street,
             "ward": ward,
             "district": district,
